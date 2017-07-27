@@ -1,0 +1,56 @@
+a {
+		text-align:center;
+		margin: 0 0 30px 30px;
+	}
+	.pix{
+		display:block;
+		margin:0 auto;
+	}
+	div.top_img{
+		border:solid;
+		text-align:center;
+	}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: -200%;
+  left: 0;
+  background-color:#b6c1ff;
+  text-align: center;
+}
+
+form{
+margin-top:8px;
+}
+   
+   div.img	{ 
+   display: block;
+   float: left;
+   margin-right: 50px;
+   width:380px;
+   height:380px;
+   border-radius: 10px;
+   }
+  
+  div.roundpics {
+    margin: 5px;
+    float: left;
+    width: 180px;
+	padding: 15px;
+	}
+
+img{
+    border-radius: 50%;
+	}
+.logo{
+ border-radius:0;
+}
+
+.nav{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #ffb3b3;	
+}
