@@ -60,10 +60,19 @@ img{
     padding: 14px 16px;
     text-decoration: none;
 	background-color: #ffb3b3;	
-}
+	}
 
 </style>
-		
+		<script>
+	function one(){
+document.getElementById('myImage').src="http://www.tk2code.com/wp-content/uploads/2017/05/arfath.jpg";
+}
+
+function two(){
+document.getElementById('myImage').src="http://www.tk2code.com/wp-content/uploads/2017/05/donnavan.jpg";
+}
+
+</script>	
 		
 </head>
 
@@ -87,7 +96,8 @@ img{
 				<br>
 				<br>
 		<div class="roundpics">		
-		<img class="pix" src =https://static.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg width="300" height="200" border-radius="50%";>
+		<img id="myImage" src="http://www.tk2code.com/wp-content/uploads/2017/05/ashley.jpg"  
+		onmouseover="one()"  onmouseout="two()" width="200" height="200" > 
 		</div>
 		 
 		<div class="roundpics">
@@ -102,8 +112,8 @@ img{
 		<img class="pix" src =https://static.pexels.com/photos/39592/mobile-phone-samsung-music-39592.jpeg width="300" height="200">
 		</div>
 		
-		<div class="roundpics">
-		<img class="pix" src =https://static.pexels.com/photos/34676/pexels-photo.jpg width="300" height="200">
+		<div class="roundpics">		<img class="pix" src =https://static.pexels.com/photos/34676/pexels-photo.jpg width="300" height="200">
+
 		</div>
 					
 					
