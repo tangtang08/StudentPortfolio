@@ -64,29 +64,34 @@ img{
 
 </style>
 		<script>
-function javapic(){
-document.getElementById('myImage1').src="http://otsl-ctg.com/wp-content/uploads/2016/11/java-bg.jpg";
-}
-
-function javapic1(){
-document.getElementById('myImage1').src="http://otsl-ctg.com/wp-content/uploads/2016/11/java-bg.jpg";
-document.getElementById('myImage').style.width="500";
-}
+	function javapic(){
+	document.getElementById('myImage1').src="http://otsl-ctg.com/wp-content/uploads/2016/11/java-bg.jpg";
+		}
 	function springhib(){
-document.getElementById('myImage2').src="springhibernate.JPG";
-}
+	document.getElementById('myImage2').src="http://www.coursesave.com/wp-content/uploads/2016/05/647428_be28_2-696x392.jpg ";
+		}
+	function hcj(){
+	document.getElementById('myImage3').src="http://cdn.skilledup.com/wp-content/uploads/2014/10/HTML-Javascript-CSS-Secondary.jpg";
+	}
+	function aws(){
+	document.getElementById('myImage4').src="http://images.techhive.com/images/article/2015/05/aws-logo-100584713-primary.idge.jpg";
+	}
 
-function cellpic2(){
-document.getElementById('myImage2').src="springhibernate.JPG";
-//document.getElementById('myImage').width="500" height="700";
-}
-
+	function sql(){
+	document.getElementById('myImage5').scr="http://www.logoeps.com/wp-content/uploads/2012/03/mysql-vector1.jpg";
+	}
+	
   function play(){
        var audio = document.getElementById("audio");
        audio.play();
                  }
-</script>	
+				 
+	function javaBigger(){
+		document.getElementById('myImage6').scr="bigger_java.JPG";
+
+	}
 	
+</script>	
 	
 </head>
 
@@ -102,7 +107,7 @@ document.getElementById('myImage2').src="springhibernate.JPG";
 			
 				
 		<div class="nav">
-		<a href="file:///C:/Users/Vicki%20Frederick/Desktop/WebDev/theGoodStuff/Home_theGoodStuff.html" value="PLAY"  onclick="play()" >HOME</a> 
+		<a href="file:///C:/Users/Vicki%20Frederick/Desktop/WebDev/theGoodStuff/Home_theGoodStuff.html" >HOME</a> 
 		
 		
 		<a href="file:///C:/Users/Vicki%20Frederick/Desktop/WebDev/theGoodStuff/About_theGoodStuff.html">ABOUT <a>
@@ -113,27 +118,32 @@ document.getElementById('myImage2').src="springhibernate.JPG";
 				<br>
 		<div class="roundpics">		
 		<img id="myImage1" src="https://static.pexels.com/photos/248528/pexels-photo-248528.jpeg"  
-		onmouseover="javapic()"  onmouseout="cellpic1()" width="300" height="200" > 
+		onmouseover="javapic()"  width="300" height="200" value="PLAY"  onmouseout="play()">  
 		</div>
 		 
 		<div class="roundpics">
 		<img id="myImage2" src ="https://static.pexels.com/photos/410635/pexels-photo-410635.jpeg"
-		onmouseover="springhib()"  onmouseout="cellpic2()" width="300" height="200" > 
+		onmouseover="springhib()"  onmouseout="javaBigger()" width="300" height="200" value="PLAY"  onmouseout="play()">  
+		<audio id="audio" src="http://www.freesfx.co.uk/rx2/mp3s/6/18650_1464809232.mp3" ></audio>
+		</div>
 
+		
+		<div class="roundpics">
+		<img id="myImage3" src ="https://static.pexels.com/photos/159356/keyboard-type-computer-internet-159356.jpeg"
+		onmouseover="hcj()"  onmouseout="cellpic2()" width="300" height="200" value="PLAY"  onmouseout="play()">
+		<audio id="audio" src="http://www.freesfx.co.uk/rx2/mp3s/6/18650_1464809232.mp3" ></audio>
 		</div>
 		
 		<div class="roundpics">
-		<img class="pix" src =https://static.pexels.com/photos/159356/keyboard-type-computer-internet-159356.jpeg width="300" height="200"value="PLAY"  onclick="play()">
-		 <audio id="audio" src="http://www.freesfx.co.uk/rx2/mp3s/6/18650_1464809232.mp3" ></audio>
-
+		<img id="myImage4"src = "https://static.pexels.com/photos/39592/mobile-phone-samsung-music-39592.jpeg" 
+		onmouseover="aws()" onmouseout="cellpic2()"  width="300" height="200" value="PLAY"  onmouseout="play()">
+		<audio id="audio" src="http://www.freesfx.co.uk/rx2/mp3s/6/18650_1464809232.mp3" ></audio>
 		</div>
 		
-		<div class="roundpics">
-		<img class="pix" src =https://static.pexels.com/photos/39592/mobile-phone-samsung-music-39592.jpeg width="300" height="200">
-		</div>
-		
-		<div class="roundpics">		<img class="pix" src =https://static.pexels.com/photos/34676/pexels-photo.jpg width="300" height="200">
-
+		<div class="roundpics">		
+		<img id="myImage5" src ="https://static.pexels.com/photos/34676/pexels-photo.jpg"
+		onmouseover="sql()" onmouseout="cell2()" width="300" height="200" value="PLAY"  onmouseout="play()">
+		<audio id="audio" src="http://www.freesfx.co.uk/rx2/mp3s/6/18650_1464809232.mp3" ></audio>
 		</div>
 					
 					
